@@ -1,5 +1,7 @@
 # docker-jelastic-cli
 
+[![Docker Repository on Quay](https://quay.io/repository/andskli/jelastic-cli/status "Docker Repository on Quay")](https://quay.io/repository/andskli/jelastic-cli)
+
 Builds a dockerized version of the Jelastic CLI.
 
 Example usage:
@@ -9,5 +11,5 @@ docker run \
     -e JELASTIC_EMAIL=user@domain.com \
     -e JELASTIC_PASSWORD=password \
     -e JELASTIC_URL=https://app.jelastic.elastx.net/ \
-    jelastic-cli environment/control/getenvs
+    quay.io/andskli/jelastic-cli environment/control/getenvs
 ```
